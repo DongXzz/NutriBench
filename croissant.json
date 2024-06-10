@@ -1,0 +1,161 @@
+{
+  "@context": {
+    "@language": "en",
+    "@vocab": "https://schema.org/",
+    "citeAs": "cr:citeAs",
+    "column": "cr:column",
+    "conformsTo": "dct:conformsTo",
+    "cr": "http://mlcommons.org/croissant/",
+    "rai": "http://mlcommons.org/croissant/RAI/",
+    "data": {
+      "@id": "cr:data",
+      "@type": "@json"
+    },
+    "dataType": {
+      "@id": "cr:dataType",
+      "@type": "@vocab"
+    },
+    "dct": "http://purl.org/dc/terms/",
+    "examples": {
+      "@id": "cr:examples",
+      "@type": "@json"
+    },
+    "extract": "cr:extract",
+    "field": "cr:field",
+    "fileProperty": "cr:fileProperty",
+    "fileObject": "cr:fileObject",
+    "fileSet": "cr:fileSet",
+    "format": "cr:format",
+    "includes": "cr:includes",
+    "isLiveDataset": "cr:isLiveDataset",
+    "jsonPath": "cr:jsonPath",
+    "key": "cr:key",
+    "md5": "cr:md5",
+    "parentField": "cr:parentField",
+    "path": "cr:path",
+    "recordSet": "cr:recordSet",
+    "references": "cr:references",
+    "regex": "cr:regex",
+    "repeated": "cr:repeated",
+    "replace": "cr:replace",
+    "sc": "https://schema.org/",
+    "separator": "cr:separator",
+    "source": "cr:source",
+    "subField": "cr:subField",
+    "transform": "cr:transform"
+  },
+  "@type": "sc:Dataset",
+  "name": "NuriBench",
+  "description": "NutriBench Datasets.",
+  "conformsTo": "http://mlcommons.org/croissant/1.0",
+  "citeAs": "None",
+  "license": "Creative Commons Attribution Non Commercial Share Alike 4.0",
+  "url": "https://github.com/DongXzz/NutriBench",
+  "version": "1.0.0",
+  "distribution": [
+    {
+      "@type": "cr:FileObject",
+      "@id": "github-repository",
+      "name": "github-repository",
+      "description": "NutriBench repository on GitHub.",
+      "contentUrl": "https://github.com/DongXzz/NutriBench",
+      "encodingFormat": "git+https",
+      "sha256": "main"
+    },
+    {
+      "@type": "cr:FileSet",
+      "@id": "csv-files",
+      "name": "csv-files",
+      "description": "csv files are hosted on the GitHub repository.",
+      "containedIn": {
+        "@id": "github-repository"
+      },
+      "encodingFormat": "text/csv",
+      "includes": "data/*.csv"
+    }
+  ],
+  "recordSet": [
+    {
+      "@type": "cr:RecordSet",
+      "@id": "csv",
+      "name": "csv",
+      "field": [
+        {
+          "@type": "cr:Field",
+          "@id": "csv/meal_description",
+          "name": "meal_description",
+          "description": "Generated meal description.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileSet": {
+              "@id": "csv-files"
+            },
+            "extract": {
+              "column": "meal_description"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "csv/carb",
+          "name": "carb",
+          "description": "Carbohydrates amount in the meal description.",
+          "dataType": "sc:Float",
+          "source": {
+            "fileSet": {
+              "@id": "csv-files"
+            },
+            "extract": {
+              "column": "carb"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "csv/protein",
+          "name": "protein",
+          "description": "Protein amount in the meal description.",
+          "dataType": "sc:Float",
+          "source": {
+            "fileSet": {
+              "@id": "csv-files"
+            },
+            "extract": {
+              "column": "protein"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "csv/fat",
+          "name": "fat",
+          "description": "Fat amount in the meal description.",
+          "dataType": "sc:Float",
+          "source": {
+            "fileSet": {
+              "@id": "csv-files"
+            },
+            "extract": {
+              "column": "fat"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "csv/energy",
+          "name": "energy",
+          "description": "Energy amount in the meal description.",
+          "dataType": "sc:Float",
+          "source": {
+            "fileSet": {
+              "@id": "csv-files"
+            },
+            "extract": {
+              "column": "energy"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
