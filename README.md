@@ -1,6 +1,8 @@
+
 # NutriBench
-## A Dataset for Evaluating Large Language Models in Carbohydrate Estimation from Meal Descriptions
+
 ### Welcome to the official repository for NutriBench.
+_A Dataset for Evaluating Large Language Models in Carbohydrate Estimation from Meal Descriptions_
 
 All data can be accessed in the [`data`](data) directory.
 
