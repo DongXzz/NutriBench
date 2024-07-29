@@ -4,7 +4,7 @@
 ### Welcome to the official repository for NutriBench.
 _A Dataset for Evaluating Large Language Models in Carbohydrate Estimation from Meal Descriptions_
 
-[[Website](https://mehak126.github.io/nutribench.html)]
+[[Website](https://mehak126.github.io/nutribench.html)] [[Paper](https://arxiv.org/abs/2407.12843)]
 
 All data can be accessed in the [`data`](data) directory.
 
