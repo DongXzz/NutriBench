@@ -30,3 +30,11 @@ import pandas as pd
 
 file_path = 'data/metric_indirect_double_multiple.csv'
 df = pd.read_csv(file_path)
+```
+
+### Contact
+For any questions, please contact the authors at {dongx1997,mdhaliwal}@ucsb.edu or qinlab01@gmail.com
+
+
+
+
