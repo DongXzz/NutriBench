@@ -45,7 +45,7 @@
     "transform": "cr:transform"
   },
   "@type": "sc:Dataset",
-  "name": "NuriBench",
+  "name": "NutriBench",
   "description": "NutriBench Datasets.",
   "conformsTo": "http://mlcommons.org/croissant/1.0",
   "citeAs": "None",
