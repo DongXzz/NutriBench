@@ -1,0 +1,1 @@
+This directory contains v0 of NutriBench which has now been updated. Please access the [`data`](../data) directory for the latest version.
