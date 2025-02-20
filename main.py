@@ -105,6 +105,12 @@ if __name__ == "__main__":
     )
     # model = PeftModel.from_pretrained(model, adapter_name)
 
+    query = "A large size of latte"
+    response = get_response(model, tokenizer, query)
+    print(response)
+
+    '''
+    For test nutribench
 
     # Login using e.g. `huggingface-cli login` to access this dataset
     ds = load_dataset("dongx1997/NutriBench")["who_meal_natural"]
@@ -136,4 +142,4 @@ if __name__ == "__main__":
     df = pd.DataFrame(df)
     df.to_csv("gemma2_carb_preds_full.csv", index=False)
 
-
+    '''
