@@ -1,0 +1,2 @@
+task: nutribench_v2_base
+include: _base_default_template_yaml

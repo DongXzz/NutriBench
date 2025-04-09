@@ -1,0 +1,3 @@
+test_split: wweia_meal_metric
+task: nutribench_base_wwiea_meal_metric
+include: _base_default_template_yaml

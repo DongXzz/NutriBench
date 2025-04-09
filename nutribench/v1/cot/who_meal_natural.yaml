@@ -1,0 +1,3 @@
+test_split: who_meal_natural
+task: nutribench_cot_who_meal_natural
+include: _cot_default_template_yaml

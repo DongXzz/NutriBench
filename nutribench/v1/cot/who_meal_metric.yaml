@@ -1,0 +1,3 @@
+test_split: who_meal_metric
+task: nutribench_cot_who_meal_metric
+include: _cot_default_template_yaml

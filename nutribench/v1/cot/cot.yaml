@@ -1,0 +1,12 @@
+group: nutribench_v1_cot
+task:
+  - nutribench_cot_who_meal_metric
+  - nutribench_cot_who_meal_natural
+  - nutribench_cot_wwiea_meal_metric
+  - nutribench_cot_wwiea_meal_natural
+
+aggregate_metric_list:
+  - metric: acc
+    weight_by_size: True
+  - metric: mae
+    weight_by_size: True

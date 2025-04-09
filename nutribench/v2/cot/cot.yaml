@@ -1,0 +1,2 @@
+task: nutribench_v2_cot
+include: _cot_default_template_yaml
