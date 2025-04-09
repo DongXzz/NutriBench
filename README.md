@@ -78,7 +78,7 @@ lm_eval \
 You can change `nutribench_v2_cot` to other tasks (e.g., `nutribench_v2_base`, etc.) depending on your use case. Please refer to [lm-evaluation-harness](https://github.com/EleutherAI/lm-evaluation-harness) for detailed documentation.
 
 
-### 📊 Reference Result
+### Reference Result
 
 | Task                | Accuracy@7.5 | MAE     |
 |---------------------|--------------|-------------|
@@ -89,7 +89,7 @@ You can change `nutribench_v2_cot` to other tasks (e.g., `nutribench_v2_base`, e
 
 ---
 
-## 📜 Citation
+## Citation
 
 If you find **NutriBench** helpful, please consider citing:
 
