@@ -50,7 +50,7 @@ def get_response(model, tokenizer, query):
     return tokenizer.decode(outputs[0])
 
 if __name__ == "__main__":
-    model_path = "/data/andong/Meta-Llama-3-8B-Instruct"
+    model_path = "<PATH to Model>"
     tokenizer = AutoTokenizer.from_pretrained(model_path, add_bos_token=False)
     model = AutoModelForCausalLM.from_pretrained(
         model_path,
