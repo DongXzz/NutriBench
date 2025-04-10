@@ -4,7 +4,7 @@
 ### Welcome to the official repository for NutriBench.
 _A Dataset for Evaluating Large Language Models on Nutrition Estimation from Meal Descriptions_
 
-[🌐 Project Page](https://mehak126.github.io/nutribench.html) | [📝 Paper (ICLR 2024)](https://arxiv.org/abs/2407.12843) | [📊 Dataset](https://huggingface.co/datasets/dongx1997/NutriBench) | [🔗 Github](https://github.com/DongXzz/NutriBench)
+[🌐 Project Page](https://mehak126.github.io/nutribench.html) | [📝 Paper (ICLR 2025)](https://arxiv.org/abs/2407.12843) | [📊 Dataset](https://huggingface.co/datasets/dongx1997/NutriBench) | [🔗 Github](https://github.com/DongXzz/NutriBench)
 
 ---
 
@@ -16,7 +16,7 @@ _A Dataset for Evaluating Large Language Models on Nutrition Estimation from Mea
   - For US phone numbers, text your meal description to **+1 (866) 698-9328**.  
   - For WhatsApp, send a message to **+1 (555) 730-0221**.
   
-- [2025/02/11] 🎉 Our **NutriBench** paper has been **accepted at ICLR 2024**!
+- [2025/02/11] 🎉 Our **NutriBench** paper has been **accepted at ICLR 2025**!
 
 - [2024/10/16] Released **NutriBench v1**, the **First** benchmark for evaluating nutrition estimation from meal descriptions.  
 
